@@ -1,4 +1,4 @@
-#include "unistd.h"
+#include "main.h"
 
 /**
  * main - function to print
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char kenneth[7] = {'k', 'e', 'n', 'n', 'e', 't', 'h'};
+	char kenneth[9] = {'k', 'e', 'n', 'n', 'e', 't', 'h'};
 	unsigned int c;
 
 	for (c = 0; c < sizeof(kenneth); c++)
