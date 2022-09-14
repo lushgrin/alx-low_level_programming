@@ -5,6 +5,7 @@
  *
  * Return: 0
  */
+
 int main(void)
 {
 	char kenneth[9] = {'K', 'e', 'n', 'n', 'e', 't'};
