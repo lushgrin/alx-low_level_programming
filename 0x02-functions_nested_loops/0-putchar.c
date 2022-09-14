@@ -1,19 +1,20 @@
-#include "main.h"
+#include "main.h
 
 /**
- * main - function to print
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char kenneth[9] = {'k', 'e', 'n', 'n', 'e', 't', 'h'};
-	unsigned int c;
+	char *sh = "Kenneth";
 
-	for (c = 0; c < sizeof(kenneth); c++)
+	while (*sh)
 	{
-		_putchar(kenneth[c]);
+		_putchar(*sh);
+		sh++;
 	}
-_putchar('\n');
-return (0);
-}
+	_putchar('\n');
+
+	return (0);
+}"
